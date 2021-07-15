@@ -12,7 +12,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'recepies',
+    path: 'recipes',
     children: [
       {
         path: '',
