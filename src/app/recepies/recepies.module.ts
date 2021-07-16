@@ -8,6 +8,7 @@ import { RecepiesPageRoutingModule } from './recepies-routing.module';
 
 import { RecepiesPage } from './recepies.page';
 import { Routes } from '@angular/router';
+import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,6 @@ const routes: Routes = [
     IonicModule,
     RecepiesPageRoutingModule
   ],
-  declarations: [RecepiesPage]
+  declarations: [RecepiesPage, RecipeItemComponent]
 })
 export class RecepiesPageModule {}
